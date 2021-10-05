@@ -1,0 +1,41 @@
+body
+{
+    background-color: blueviolet;
+}
+
+#gridContainer
+{
+    display: grid;
+    grid-template-columns: 350px auto;
+    grid-template-rows: 710px auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "grid1 grid2 grid2 "
+    "grid1 grid3 grid4"
+    "grid1 grid5 grid4";
+}
+#grid1
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 2em;
+    color: black;
+    grid-area: grid1;
+}
+#grid2
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: ivory;
+    grid-area: grid2;
+}
+img
+{
+    text-align: center;
+}
